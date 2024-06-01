@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--blue);   
+    align-items: center;
+    
+}
+
+:root{
+    --blue: #06283D;
+}
+
+body{
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.grid-item{
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+.imagenes {
+    font-size: 33px;  
+    background-color: #ffffff;  
+    align-items: center;
+}
+#imagen{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    background-color: #ffffff;
+   
+}
+#imagen1{
+    width: 10px;
+    height: 10px;
+    float: right;
+    background-color: #ffffff; 
+}
+
+#imagen2{
+    width: 10px;
+    height: 10px;
+    float: right;
+    background-color: #ffffff; 
+}
+ 
+.testimonio1{
+    margin-right: 20px;
+    background-color: #ffffff;
+}
+#country{
+    flex-wrap: wrap;
+    font-family: #06283D;
+    font-size: 10px;  
+    background-color: #ffffff;  
+    float: left;
+    flex-direction:row;
+}
+
+#usuario{
+    color: #06283D;
+    font-size: 33px;  
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+#contexto1{
+    font-family: #06283D;
+    font-size: 10px;  
+    background-color: #ffffff;  
+    text-align: center;
+}
+#viento{
+    color: #06283D;
+    font-size: 10px;  
+    background-color: #ffffff;  
+    float: right;
+    text-align: center;
+}
+#humedad{
+    color: #06283D;
+    font-size: 10px;  
+    background-color: #ffffff;  
+    text-align:end;
+}
+
+@media (min-width: 400px) {
+.container{
+    display: flex;
+    padding: 3% 3%;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 150px;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #ffffff;  
+}
+#top2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #ffffff;
+}
+}
